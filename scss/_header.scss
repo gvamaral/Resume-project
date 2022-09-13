@@ -1,0 +1,32 @@
+@use "_colors.scss";
+@use "_var.scss";
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 380px;
+    padding: 0 5%;
+    img {
+        height: 300px;
+        width: 300px;
+        border-radius: 100%;
+        box-shadow: var.$shadow;
+    }
+    .name {
+        font-family: Katahdin;
+        color: colors.$white;
+        text-shadow: var.$shadow;
+        z-index: 2;
+        h1 {
+        font-size: 60px;
+        }
+        h3 {
+        font-size: 20px;
+        }
+    }
+}

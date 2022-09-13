@@ -1,0 +1,93 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(../images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 380px;
+  padding: 0 5%;
+}
+header img {
+  height: 300px;
+  width: 300px;
+  border-radius: 100%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+header .name {
+  font-family: Katahdin;
+  color: #fbfbf9;
+  text-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  z-index: 2;
+}
+header .name h1 {
+  font-size: 60px;
+}
+header .name h3 {
+  font-size: 20px;
+}
+
+@font-face {
+  font-family: Katahdin;
+  src: url(../fonts/KatahdinRound.otf);
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.big-text, .container h2 {
+  color: #797e81;
+  font-family: Katahdin;
+}
+
+.container {
+  display: flex;
+}
+.container h2:first-child {
+  margin-top: 0;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  padding: 5vw;
+  max-width: 300px;
+}
+.profile p {
+  font-size: 17px;
+  color: #212121;
+}
+.profile span {
+  font-size: 17px;
+  color: #212121;
+}
+.profile i {
+  margin: 10px;
+}
+.profile .education h5 {
+  font-size: 17px;
+  margin-bottom: 13px;
+}
+.profile .education p {
+  font-size: 14px;
+  margin-top: 0;
+}
+
+.work {
+  background-color: #efefef;
+  padding: 5vw;
+}
+
+hr {
+  max-width: 100px;
+  height: 4px;
+  margin-left: 0;
+  color: #797e81;
+  background-color: #797e81;
+  border-radius: 10%;
+}
+
+/*# sourceMappingURL=style.css.map */
